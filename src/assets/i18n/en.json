@@ -1,0 +1,75 @@
+{
+  "head_menu": [
+    { "url": "home", "name": "Home" },
+    { "url": "about", "name": "About Us" }
+  ],
+  "head_title": {
+    "title": "Revolutionize Your Business Framework",
+    "subtitle": "Streamline operations and boost efficiency with our comprehensive SME solutions"
+  },
+  "bloc_1": {
+    "title": "Digitalization of SMEs",
+    "cases": [
+      {
+        "description": "Every business activity is subject to countless regulations. There is no way to avoid the digitization of filing and processes - this is already provided for in the Commercial Code in conjunction with the Tax Code (GoBD + Elster), the social security reporting portal and a number of other systems that you are obliged to use."
+      },
+      {
+        "description": "We focus on supporting small and medium-sized enterprises (SMEs) in particular with practical measures in a cost-effective and effective manner."
+      },
+      {
+        "description": "A process documentation documents for you how your filing and processes are organized. At the same time, this guide helps you to keep track of things in your day-to-day life when integrating email, apps, software packages, receipts, and more from many sources."
+      }
+    ]
+  },
+  "bloc_2": {
+    "title": "Your Computer in the Center",
+    "cases_1": "Ensuring the auditability of your documents while using cost-effective cloud services and Internet apps is why we put your computer at the center. Many things can change over the years, but your archive should stay with you .",
+    "cases_2": "Traceable, complete, unchanged, access-protected, digitally verifiable are just some of the keywords from the specifications with which we can support you.",
+    "cases_3": "Our principle of indexing and building metadata in JSON format maintains your independence."
+  },
+  "bloc_2_2": {
+    "title": "Contact Us",
+    "name": "Name",
+    "placeholder_name": "Enter your name",
+    "email": "Email",
+    "placeholder_email": "Enter your email",
+    "message": "Message",
+    "reset": "Reset",
+    "send": "Send"
+  },
+  "bloc_3": {
+    "title": "Software & APPs < Integration",
+    "more_info": "Learn more...",
+    "cases": [
+      {
+        "category": "Flexible Software Integration",
+        "description": "You can always use the mix of software & apps that you need for your business."
+      },
+      {
+        "category": "Seamless Tech Harmony at Work",
+        "description": "Mobile devices, computers, operating systems and applications work together like an orchestra when you do your work in the company."
+      },
+      {
+        "category": "Streamline Workflows with Coverflex",
+        "description": "With a Coverflex Project account, you can create your own profiles on your PC to control workflows . You coordinate the circulation and flow of documents, their processing and filing. You can use ready-made apps for this - from many providers via their APIs or import/export functions"
+      }
+    ]
+  },
+  "footer": {
+    "address": {
+      "name": "CookMaster",
+      "phone": "01 23 45 67 89",
+      "location": "Paris, 14 Rue des Chefs, 75008"
+    },
+    "links": [
+      { "name": "Online Classes", "url": "Later" },
+      { "name": "Ethical Hunting", "url": "Later" },
+      { "name": "Gastronomic Experiences", "url": "Later" },
+      { "name": "Book a Class", "url": "Later" },
+      { "name": "Our Chefs", "url": "Later" },
+      { "name": "Our Packages", "url": "Later" },
+      { "name": "Blog", "url": "Later" },
+      { "name": "Contact Us", "url": "Later" }
+    ]
+  }
+}

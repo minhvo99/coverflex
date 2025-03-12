@@ -1,0 +1,85 @@
+<section class="bloc-section bloc-3 container my-6">
+  <div class="row">
+    <div class="title-container mt-4">
+      <div class="line"></div>
+      <h2 class="title">Kontaktieren Sie uns</h2>
+      <div class="line"></div>
+    </div>
+    <form class="mt-3" [formGroup]="formMessage">
+      <div class="my-3 form-name flex">
+        <label for="name" class="form-label mr-6">Name: </label>
+        <div class="flex flex-column gap-2 w-full">
+          <input
+            type="text"
+            class="ng-invalid ng-dirty"
+            formControlName="name"
+            id="name"
+            aria-describedby="username-help"
+            placeholder="Geben Sie Ihren Namen ein"
+            pInputText
+          />
+          <small
+            id="username-help"
+            *ngIf="getError('name')"
+            style="color: rgb(235, 41, 41)"
+            >Name ist erforderlich</small
+          >
+        </div>
+      </div>
+      <div class="my-3 form-email flex">
+        <label for="email" class="form-label mr-6">E-mail: </label>
+        <div class="flex flex-column gap-2 w-full">
+          <input
+            type="email"
+            class="ng-invalid ng-dirty"
+            id="email"
+            placeholder="Geben Sie Ihre E-Mail-Adresse ein"
+            formControlName="email"
+            pInputText
+          />
+          <small *ngIf="getError('email')" style="color: rgb(235, 41, 41)"
+            >E-Mail ist erforderlich</small
+          >
+          <small
+            *ngIf="
+                              formMessage.get('email')?.errors?.['email'] &&
+                              formMessage.get('email')?.dirty
+                          "
+            style="color: rgb(235, 41, 41)"
+            >E-Mail ist ungültig</small
+          >
+        </div>
+      </div>
+      <div class="my-3 flex">
+        <label class="form-label mr-4">Nachricht:</label>
+        <div class="edito w-full">
+          <textarea
+            rows="5"
+            cols="30"
+            pInputTextarea
+            [autoResize]="false"
+            formControlName="message"
+            class="ng-invalid ng-dirty"
+          >
+          </textarea>
+          <small
+            id="username-help"
+            *ngIf="getError('message')"
+            style="color: rgb(235, 41, 41)"
+            >Nachricht ist erforderlich</small
+          >
+        </div>
+      </div>
+      <div
+        class="group-button flex flex-row flex-wrap align-items-center justify-content-end gap-4 mb-6"
+      >
+        <app-button
+          (click)="reset()"
+          text="Zurücksetzen"
+          class="card-btn"
+        ></app-button>
+        <app-button text="Schicken" class="main-btn" icon="send"></app-button>
+      </div>
+    </form>
+  </div>
+</section>

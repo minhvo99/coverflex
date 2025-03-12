@@ -1,0 +1,27 @@
+.bg-footer {
+  background-color: #364153;
+  padding: 6rem;
+  .address,
+  .phone,
+  .location {
+    color: #fff;
+  }
+  .link {
+    color: #fff;
+  }
+  .under-line {
+    border-bottom: 1px solid #fff;
+  }
+  .social {
+    .text {
+      color: #fff;
+    }
+  }
+  ul {
+    padding: 0;
+    .line-text {
+      text-decoration: underline;
+      text-decoration-color: #ffff;
+    }
+  }
+}

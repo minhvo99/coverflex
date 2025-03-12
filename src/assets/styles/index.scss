@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixins";
+@import "global";
+
+:root {
+  --bg-gray-900: #101828;
+  --bg-gray-800: #1a202c;
+  --bg-gray-700: #2d3748;
+  --bg-gray-600: #4a5568;
+  --bg-gray-500: #718096;
+}

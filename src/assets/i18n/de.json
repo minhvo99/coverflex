@@ -1,0 +1,75 @@
+{
+  "head_menu": [
+    { "url": "home", "name": "Startseite" },
+    { "url": "about", "name": "Über uns" }
+  ],
+  "head_title": {
+    "title": "Revolutionieren Sie Ihr Geschäftsmodell",
+    "subtitle": "Optimieren Sie Abläufe und steigern Sie die Effizienz mit unseren umfassenden KMU-Lösungen"
+  },
+  "bloc_1": {
+    "title": "Digitalisierung von KMU",
+    "cases": [
+      {
+        "description": "Jede unternehmerische Tätigkeit unterliegt unzähligen Regelungen. Der Digitalisierung von Ablage und Abläufen kann man nicht ausweichen - das sehen schon das Handelsgesetzbuch in Verbindung mit der Abgabenordnung (GoBD + Elster), SV-Meldeportal und eine Reihe weitere Systeme vor, die man zu nutzen verpflichtet ist."
+      },
+      {
+        "description": "Wir konzentrieren uns darauf, insbesondere kleine und mittlere Unternehmen (KMU) kostengünstig und effektiv mit praktikablen Maßnahmen hierbei zu begleiten."
+      },
+      {
+        "description": "Eine Prozessdokumentation zeigt Ihnen, wie Ihre Ablage und Prozesse organisiert sind. Gleichzeitig hilft Ihnen dieses Handbuch, den Überblick im Alltag zu behalten, wenn Sie E-Mails, Apps, Softwarepakete, Belege und mehr aus vielen Quellen integrieren."
+      }
+    ]
+  },
+  "bloc_2": {
+    "title": "Ihr Computer im Mittelpunkt",
+    "cases_1": "Die Sicherstellung der Prüfbarkeit Ihrer Dokumente bei gleichzeitiger Nutzung kostengünstiger Cloud-Dienste und Internet-Apps ist der Grund, warum wir Ihren Computer in den Mittelpunkt stellen. Viele Dinge können sich im Laufe der Jahre ändern, aber Ihr Archiv sollte bei Ihnen bleiben.",
+    "cases_2": "Nachvollziehbar, vollständig, unverändert, zugriffsgeschützt, digital verifizierbar – das sind nur einige der Schlüsselwörter aus den Vorgaben, mit denen wir Sie unterstützen können.",
+    "cases_3": "Unser Prinzip der Indexierung und Metadaten-Erstellung im JSON-Format sichert Ihre Unabhängigkeit."
+  },
+  "bloc_2_2": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Name",
+    "placeholder_name": "Geben Sie Ihren Namen eie",
+    "email": "E-mail",
+    "placeholder_email": "Geben Sie Ihre E-Mail-Adresse ein",
+    "message": "Nachricht",
+    "reset": "Zurücksetzen",
+    "send": "Senden"
+  },
+  "bloc_3": {
+    "title": "Software & Apps < Integration",
+    "more_info": "Erfahren Sie mehr...",
+    "cases": [
+      {
+        "category": "Flexible Software-Integration",
+        "description": "Sie können jederzeit die Mischung aus Software & Apps nutzen, die Sie für Ihr Unternehmen benötigen."
+      },
+      {
+        "category": "Nahtlose technische Harmonie am Arbeitsplatz",
+        "description": "Mobilgeräte, Computer, Betriebssysteme und Anwendungen arbeiten wie ein Orchester zusammen, wenn Sie Ihre Arbeit im Unternehmen erledigen."
+      },
+      {
+        "category": "Optimierte Arbeitsabläufe mit Coverflex",
+        "description": "Mit einem Coverflex-Projektkonto können Sie eigene Profile auf Ihrem PC erstellen, um Arbeitsabläufe zu steuern. Sie koordinieren den Umlauf und den Fluss von Dokumenten, deren Verarbeitung und Ablage. Dafür können Sie vorgefertigte Apps von vielen Anbietern über deren APIs oder Import-/Exportfunktionen nutzen."
+      }
+    ]
+  },
+  "footer": {
+    "address": {
+      "name": "CookMaster",
+      "phone": "01 23 45 67 89",
+      "location": "Paris, 14 Rue des Chefs, 75008"
+    },
+    "links": [
+      { "name": "Online-Kurse", "url": "Later" },
+      { "name": "Ethische Jagd", "url": "Later" },
+      { "name": "Gastronomische Erlebnisse", "url": "Later" },
+      { "name": "Buchen Sie einen Kurs", "url": "Later" },
+      { "name": "Unsere Köche", "url": "Later" },
+      { "name": "Unsere Pakete", "url": "Later" },
+      { "name": "Blog", "url": "Later" },
+      { "name": "Kontaktieren Sie uns", "url": "Later" }
+    ]
+  }
+}
