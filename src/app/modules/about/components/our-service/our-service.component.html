@@ -1,13 +1,44 @@
 <section class="bloc-section bloc-1 container my-6">
-  <div class="row no-gutters">
+  <div class="row no-gutter">
     <div class="title-container" data-aos="fade-up" data-aos-delay="100">
       <div class="line"></div>
-      <h2 class="title">Digitalisierung von KMU</h2>
+      <h2 class="title">Unsere Leistungen</h2>
       <div class="line"></div>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-1 mb-8">1</div>
-    <div class="col-lg-3 col-md-3 col-sm-1 mb-8">2</div>
-    <div class="col-lg-3 col-md-3 col-sm-1 mb-8">3</div>
-    <div class="col-lg-3 col-md-3 col-sm-1 mb-8">4</div>
+    <div
+      *ngFor="let item of technologies; let i = index"
+      class="col-lg-3 col-md-3 col-sm-1 mb-8"
+    >
+      <div
+        class="image-card"
+        data-aos="fade-up"
+        [attr.data-aos-delay]="i * 100"
+      >
+        <img [src]="item.image" [alt]="item.name" class="image-card__img" />
+        <div class="image-card__overlay">
+          <h3 class="image-card__title">{{ item.name }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="title-container" data-aos="fade-up" data-aos-delay="100">
+      <div class="line"></div>
+      <h2 class="title">Moderne Modularisierung</h2>
+      <div class="line"></div>
+    </div>
+    <div class="central-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="flex text-container pr-6">
+        <p class="content">
+          <strong>Modularization</strong> used to mean breaking down the
+          components of a software application into building blocks. Today we
+          use a project to <strong>integrate</strong> building blocks from
+          multiple vendors into an overall solution &lt; your product.
+        </p>
+      </div>
+      <div class="img">
+        <img src="../../../../../assets/images/background-img.jpg" alt="" />
+      </div>
+    </div>
   </div>
 </section>
