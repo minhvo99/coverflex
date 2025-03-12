@@ -1,16 +1,15 @@
 
 import {  NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule } from 'primeng/api';
 import { AboutRoutingModule } from './about-routing.module';
 import { AboutComponent } from './about.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { TimeLineComponent } from './components/time-line/time-line.component';
 import { OurServiceComponent } from './components/our-service/our-service.component';
+import { SharedModule } from '@app/shared/shared.module';
 
 const imports = [CommonModule, SharedModule, AboutRoutingModule];
 
-const declarations = [AboutComponent, BannerComponent, TimeLineComponent, OurServiceComponent];
+const declarations = [AboutComponent, TimeLineComponent, OurServiceComponent];
 
 @NgModule({
     declarations: [...declarations],

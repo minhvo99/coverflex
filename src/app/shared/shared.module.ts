@@ -19,6 +19,7 @@ import { FileUploadModule } from 'primeng/fileupload';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { TimelineModule } from 'primeng/timeline';
 import { CardModule } from 'primeng/card';
+import { BannerComponent } from './components/banner/banner.component';
 
 const imports = [
     CommonModule,
@@ -44,6 +45,7 @@ const declarations = [
     HeaderComponent,
     FooterComponent,
     ButtonComponent,
+    BannerComponent
 ];
 
 @NgModule({
