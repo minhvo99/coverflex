@@ -10,10 +10,10 @@ import { OurServiceComponent } from './components/our-service/our-service.compon
 
 const imports = [CommonModule, SharedModule, AboutRoutingModule];
 
-const declarations = [AboutComponent, BannerComponent, TimeLineComponent];
+const declarations = [AboutComponent, BannerComponent, TimeLineComponent, OurServiceComponent];
 
 @NgModule({
-    declarations: [...declarations, OurServiceComponent],
+    declarations: [...declarations],
     imports: [...imports],
     exports: [],
 })

@@ -11,10 +11,11 @@ const declarations = [ ContactComponent];
 
 
 @NgModule({
+  declarations: [...declarations],
   imports: [
     ...imports,
   ],
-  declarations: [...declarations]
+  exports: [],
 })
 export class ContactModule { }
 
