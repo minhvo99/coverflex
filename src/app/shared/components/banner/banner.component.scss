@@ -1,9 +1,11 @@
 .hero-section {
   height: 100%;
   background: #1e2939;
+  // width: 100vw;
   &-image {
     background-image: url("src/assets/images/back-ground-main.jpeg");
-    height: 80vh;
+    height: 100%;
+    // width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,22 +24,26 @@
       padding: 30px;
     }
 
-    h1 {
+    .title {
       font-size: 3rem;
       font-weight: bold;
       color: #fff;
 
-      @media (min-width: 768px) {
-        font-size: 4.5rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+        white-space: normal;
+        word-wrap: break-word;
       }
     }
-    h3 {
+    .description {
       font-size: 1.25rem;
       color: #d1d5dc;
       margin-bottom: 3rem;
 
-      @media (min-width: 768px) {
-        font-size: 1.5rem;
+      @media screen and (max-width: 768px) {
+        font-size: 1rem;
+        white-space: normal;
+        word-wrap: break-word;
       }
     }
   }

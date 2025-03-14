@@ -13,6 +13,7 @@
 
   .text-container {
     text-align: center;
+    width: 100%;
     .content {
       font-size: 25px;
       color: #fff;
@@ -39,7 +40,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 2;
-      background: rgba(255, 255, 255, 0.6);
+      background: #93929299;
       border-radius: 25px;
       color: #333330;
       width: fit-content;
@@ -63,6 +64,7 @@
   @media (max-width: 768px) {
     .text-container {
       padding: 1rem !important;
+      width: 100%;
       .content {
         font-size: 18px;
       }
