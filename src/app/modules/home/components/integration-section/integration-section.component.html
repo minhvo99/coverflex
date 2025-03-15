@@ -6,41 +6,19 @@
       </h2>
     </div>
     <div class="card-slider">
-      <div class="card-item" data-aos="fade-right" data-aos-delay="300">
-        <img src="assets/images/integration-1.jpg" alt="Image 1" />
-        <p class="card-category">
-          <span>Flexible Softwareintegration</span>
-        </p>
-        <p class="card-text">
-          Sie können jederzeit den Mix von Software & APPs einsetzen, den Sie
-          für Ihr Geschäft brauchen.
-        </p>
-      </div>
-      <div class="card-item" data-aos="fade-up" data-aos-delay="300">
-        <img src="assets/images/integration-2.jpg" alt="Image 1" />
-        <p class="card-category">
-          <span>Nahtlose technische Harmonie am Arbeitsplatz</span>
-        </p>
-        <p class="card-text">
-          Mobile Geräte, Computer, Betriebssysteme und Anwendungen arbeiten wie
-          ein Orchester zusammen, wenn Sie Ihre Arbeit im Unternehmen erledigen.
-        </p>
-      </div>
-      <div class="card-item" data-aos="fade-left" data-aos-delay="300">
-        <img src="assets/images/integration-3.jpg" alt="Image 1" />
-        <p class="card-category">
-          <span>Optimieren Sie Ihre Arbeitsabläufe mit Coverflex</span>
-        </p>
-        <p class="card-text">
-          Mit einem
-          <strong style="color: #aacccc">Coverflex Project Konto</strong> können
-          Sie auf Ihrem PC eigene <strong>Profile</strong> zur Steuerung von
-          <strong>Arbeitsabläufen</strong> erstellen. Sie koordinieren den
-          Umlauf und Fluß von Dokumenten, ihre Be- und Verarbeitung und Ablage.
-          Hierfür können Sie vorgefertigte APPs nutzen - von vielen Anbietern
-          über deren APIs oder Import-/Export-Funktionen.
-        </p>
-      </div>
+      <ng-container *ngFor="let item of integrationItems; let i = index">
+        <div
+          class="card-item"
+          [attr.data-aos]="item.effect"
+          data-aos-delay="300"
+        >
+          <img [src]="item.img" [alt]="item.title" />
+          <p class="card-category">
+            <span>{{ item.title }}</span>
+          </p>
+          <p class="card-text" [innerHTML]="item.description"></p>
+        </div>
+      </ng-container>
     </div>
   </div>
 </section>
