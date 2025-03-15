@@ -20,6 +20,7 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
 import { TimelineModule } from 'primeng/timeline';
 import { CardModule } from 'primeng/card';
 import { BannerComponent } from './components/banner/banner.component';
+import { SafeHtmlPipe } from './pipe/safe-html.pipe';
 
 const imports = [
     CommonModule,
@@ -45,7 +46,8 @@ const declarations = [
     HeaderComponent,
     FooterComponent,
     ButtonComponent,
-    BannerComponent
+    BannerComponent,
+    SafeHtmlPipe
 ];
 
 @NgModule({

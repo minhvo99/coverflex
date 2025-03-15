@@ -19,7 +19,7 @@
         <ng-template pTemplate="header">
           <img [alt]="item.title" [src]="item.image" />
         </ng-template>
-        <p class="card-text" [innerHTML]="item.description"></p>
+        <p class="card-text" [innerHTML]="item.description | safeHtml"></p>
       </p-card>
     </ng-container>
   </div>
