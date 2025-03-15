@@ -1,46 +1,50 @@
-<div class="nav">
-  <input type="checkbox" class="nav__input" id="nav__input" />
-  <div class="logo-img">
-    <h1 class="logo">Coverflex Project UG</h1>
+<div class="bg-header">
+  <div class="container">
+    <div class="nav">
+      <input type="checkbox" class="nav__input" id="nav__input" />
+      <div class="logo-img">
+        <h1 class="logo">Coverflex Project UG</h1>
+      </div>
+      <label for="nav__input" class="nav__bar-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label for="nav__input" class="nav__overlay"></label>
+      <nav class="nav__menu">
+        <ul class="nav__list">
+          <li>
+            <a
+              class="nav__link"
+              routerLink="/"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
+              >Startseite</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" routerLink="/about" routerLinkActive="active"
+              >Über uns</a
+            >
+          </li>
+          <li>
+            <a class="nav__link" routerLink="/contact" routerLinkActive="active"
+              >Kontaktieren Sie uns</a
+            >
+          </li>
+        </ul>
+        <label for="nav__input" class="nav__close-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </nav>
+      <!-- <div class="actions">
+        <p-dropdown
+          [options]="languages"
+          [(ngModel)]="selectedLanguage"
+          optionLabel="name"
+          placeholder="Language"
+          (onChange)="changeLanguage($event.value.code)"
+          styleClass="global-dropdown"
+        />
+      </div> -->
+    </div>
   </div>
-  <label for="nav__input" class="nav__bar-btn">
-    <i class="fas fa-bars"></i>
-  </label>
-  <label for="nav__input" class="nav__overlay"></label>
-  <nav class="nav__menu">
-    <ul class="nav__list">
-      <li>
-        <a
-          class="nav__link"
-          routerLink="/"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          >Startseite</a
-        >
-      </li>
-      <li>
-        <a class="nav__link" routerLink="/about" routerLinkActive="active"
-          >Über uns</a
-        >
-      </li>
-      <li>
-        <a class="nav__link" routerLink="/contact" routerLinkActive="active"
-          >Kontaktieren Sie uns</a
-        >
-      </li>
-    </ul>
-    <label for="nav__input" class="nav__close-btn">
-      <i class="fas fa-times"></i>
-    </label>
-  </nav>
-  <!-- <div class="actions">
-    <p-dropdown
-      [options]="languages"
-      [(ngModel)]="selectedLanguage"
-      optionLabel="name"
-      placeholder="Language"
-      (onChange)="changeLanguage($event.value.code)"
-      styleClass="global-dropdown"
-    />
-  </div> -->
 </div>
